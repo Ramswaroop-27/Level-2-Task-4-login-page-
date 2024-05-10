@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #70de9c;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.column {
+    max-width: 300px;
+    margin: 0 20px;
+    background-color: #7fb8b0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.column h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.column h3{
+    text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #4ecd52;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#securedPage {
+    display: none; /* Initially hide the secured page */
+    margin-top: 20px;
+    max-width: 300px;
+    background-color: #7fb8b0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#securedPage p {
+    text-align: center;
+}
